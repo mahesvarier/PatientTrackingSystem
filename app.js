@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 })
 
 app.use(express.json());
-app.use('api/patient', patientRoute);
+app.use('/api/patient', patientRoute);
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
