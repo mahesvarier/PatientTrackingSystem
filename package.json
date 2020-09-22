@@ -1,0 +1,28 @@
+{
+  "name": "patienttrackingsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahesvarier/PatientTrackingSystem.git"
+  },
+  "author": "Mahes Varier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahesvarier/PatientTrackingSystem/issues"
+  },
+  "homepage": "https://github.com/mahesvarier/PatientTrackingSystem#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "nodemon": "^2.0.4"
+  }
+}
